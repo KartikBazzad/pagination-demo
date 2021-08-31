@@ -14,7 +14,7 @@ function App() {
       }
       setLoading(false);
     });
-  }, [page, setUsers]);
+  }, [page]);
   const changePage = (e) => {
     console.log(e);
     setPage(e.selected + 1);
